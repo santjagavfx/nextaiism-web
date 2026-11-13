@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="99 103 392 392">
+  <title>NextAIism</title>
+  <style>
+    @media (prefers-color-scheme: light) {
+      #favicon:target { filter: brightness(.55) saturate(.85); }
+    }
+  </style>
+  <defs>
+    <linearGradient id="rim" x1="0" y1="1" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#00e9a6"/>
+      <stop offset=".54" stop-color="#59ffdf"/>
+      <stop offset="1" stop-color="#b8ffed"/>
+    </linearGradient>
+    <linearGradient id="orbit" x2=".9" y2="1">
+      <stop stop-color="#aaffec"/>
+      <stop offset=".28" stop-color="#00bc86"/>
+      <stop offset=".63" stop-color="#6effdb"/>
+      <stop offset="1" stop-color="#00ce96"/>
+    </linearGradient>
+    <radialGradient id="core" cx=".52" cy=".43" r=".64">
+      <stop stop-color="#e5fff7"/>
+      <stop offset=".33" stop-color="#56ffd0"/>
+      <stop offset=".72" stop-color="#00c98d"/>
+      <stop offset="1" stop-color="#007c50"/>
+    </radialGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <path id="outer" d="M161 190C116 242 116 304 159 366C204 431 283 459 355 431C439 399 481 315 449 217C442 196 432 178 421 166C449 186 471 235 471 284C471 378 393 456 295 456C199 456 119 380 119 286C119 251 134 218 161 190Z"/>
+    <ellipse id="trajectory" cx="294" cy="284" rx="137" ry="55"/>
+    <g id="mark">
+      <use href="#outer" fill="url(#rim)"/>
+      <g fill="none" stroke="url(#orbit)" stroke-width="11">
+        <use href="#trajectory" transform="rotate(40 294 284)"/>
+        <use href="#trajectory" transform="rotate(-40 294 284)"/>
+      </g>
+      <circle cx="294" cy="284" r="37.5" fill="url(#core)"/>
+      <circle cx="410.5" cy="154.8" r="12.6" fill="url(#core)"/>
+    </g>
+  </defs>
+  <g id="favicon">
+    <use href="#mark" filter="url(#glow)" opacity=".55"/>
+    <use href="#mark"/>
+  </g>
+</svg>

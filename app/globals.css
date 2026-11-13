@@ -45,7 +45,6 @@ button { cursor: pointer; }
 .site-header { border-bottom: 1px solid var(--line); }
 .header-inner { min-height: 76px; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 28px; }
 .brand { display: inline-flex; align-items: center; gap: 9px; font-size: 1.1rem; font-weight: 720; letter-spacing: -.04em; }
-.brand-mark { color: var(--accent); font-size: 1.4rem; }
 nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 22px; }
 nav a { color: var(--muted); font-size: .86rem; padding-block: 6px; }
 nav a:hover, nav a[aria-current] { color: var(--accent); }
@@ -114,4 +113,9 @@ h2 { font-size: clamp(1.9rem, 4.5vw, 3.4rem); font-weight: 620; letter-spacing: 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .orbit, .core-halo { animation: none; }
+}
+.brand-mark { filter: brightness(.55) saturate(.85); }
+:root[data-theme="dark"] .brand-mark { filter: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .brand-mark { filter: none; }
 }

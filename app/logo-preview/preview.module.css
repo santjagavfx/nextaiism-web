@@ -12,7 +12,8 @@
 .samples { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) minmax(64px, 1.3fr); gap: 3px; }
 .samples li { display: grid; justify-items: center; font-size: .7rem; white-space: nowrap; }
 .iconSlot { height: 68px; display: grid; place-items: center; }
-.mark { display: block; width: var(--size); height: var(--size); background: var(--accent); mask: var(--mark) center / contain no-repeat; }
+.mark { display: block; width: var(--size); height: var(--size); background: var(--mark) center / contain no-repeat; }
+.light .mark { filter: brightness(.55) saturate(.85); }
 
 @media (max-width: 900px) {
   .concept { grid-template-columns: 1fr; }

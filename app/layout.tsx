@@ -6,6 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: { default: "NextAIism — Living AI Laboratory", template: "%s · NextAIism" },
   description: "A living laboratory for exploring what humans and AI can create together.",
+  icons: { icon: { url: "/logos/nextaiism.svg#favicon", type: "image/svg+xml", sizes: "any" } },
 };
 
 const restoreTheme = `try {

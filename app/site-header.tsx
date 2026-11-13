@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { sections } from "./sections";
 
@@ -27,7 +28,10 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="shell header-inner">
-        <Link href="/" className="brand"><span className="brand-mark" aria-hidden="true">✳</span>NextAIism</Link>
+        <Link href="/" className="brand">
+          <Image className="brand-mark" src="/logos/nextaiism.svg" alt="" width={28} height={28} unoptimized />
+          NextAIism
+        </Link>
         <nav aria-label="Main navigation">
           {links.map(({ href, title }) => (
             <Link key={href} href={href} aria-current={pathname === href ? "page" : undefined}>{title}</Link>
