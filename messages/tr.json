@@ -1,5 +1,7 @@
 {
   "ui": {
+    "playOrbits": "Yörüngeleri hareket ettir",
+    "pauseOrbits": "Animasyonu duraklat",
     "home": "Ana sayfa",
     "nav": "Ana menü",
     "theme": "Renk temasını değiştir",

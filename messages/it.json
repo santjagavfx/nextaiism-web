@@ -1,5 +1,7 @@
 {
   "ui": {
+    "playOrbits": "Anima le orbite",
+    "pauseOrbits": "Metti in pausa",
     "home": "Home",
     "nav": "Navigazione principale",
     "theme": "Cambia tema",

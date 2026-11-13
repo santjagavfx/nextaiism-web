@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { sectionSlugs } from "../sections";
+import { OrbitControls } from "../orbit-controls";
 import { alternateUrls } from "../../i18n/metadata";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -25,7 +26,8 @@ export default async function Home({ params }: Props) {
             <Link href="#directions" className="button secondary">{t("ui.directions")} <span aria-hidden="true">↓</span></Link>
           </div>
         </div>
-        <div className="core-scene" aria-hidden="true">
+        <div className="core-panel">
+        <div className="core-scene" id="core-scene" aria-hidden="true">
           <div className="core-grid" />
           <div className="orbit orbit-one"><span /></div>
           <div className="orbit orbit-two"><span /></div>
@@ -34,6 +36,8 @@ export default async function Home({ params }: Props) {
           <div className="core" />
           <span className="scene-label human">{t("ui.human")}</span>
           <span className="scene-label machine">{t("ui.machine")}</span>
+        </div>
+        <OrbitControls play={t("ui.playOrbits")} pause={t("ui.pauseOrbits")} />
         </div>
       </section>
       <section className="directions shell" id="directions" aria-labelledby="directions-title">

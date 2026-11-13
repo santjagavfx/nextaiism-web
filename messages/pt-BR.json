@@ -1,5 +1,7 @@
 {
   "ui": {
+    "playOrbits": "Animar órbitas",
+    "pauseOrbits": "Pausar órbitas",
     "home": "Início",
     "nav": "Navegação principal",
     "theme": "Alternar tema de cores",

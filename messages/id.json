@@ -1,5 +1,7 @@
 {
   "ui": {
+    "playOrbits": "Gerakkan orbit",
+    "pauseOrbits": "Jeda animasi orbit",
     "home": "Beranda",
     "nav": "Navigasi utama",
     "theme": "Ganti tema warna",

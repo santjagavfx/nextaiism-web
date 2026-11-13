@@ -1,5 +1,7 @@
 {
   "ui": {
+    "playOrbits": "Uruchom animację orbit",
+    "pauseOrbits": "Wstrzymaj animację orbit",
     "home": "Strona główna",
     "nav": "Menu główne",
     "theme": "Zmień motyw kolorystyczny",
