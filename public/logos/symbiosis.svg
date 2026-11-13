@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <title>Symbiosis</title>
+  <style>
+    svg { --ink: #226244; }
+    @media (prefers-color-scheme: dark) { svg { --ink: #9ff4bf; } }
+  </style>
+  <path d="M7 30C7 17 16 9 25 9C31 9 35 12 37 17M41 18C41 31 32 39 23 39C17 39 13 36 11 31" fill="none" stroke="var(--ink)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M24 17L31 24L24 31L17 24Z" fill="var(--ink)"/>
+</svg>

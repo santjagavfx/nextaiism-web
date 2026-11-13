@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <title>Open Evolution</title>
+  <style>
+    svg { --ink: #226244; }
+    @media (prefers-color-scheme: dark) { svg { --ink: #9ff4bf; } }
+  </style>
+  <path d="M39 12A18 18 0 0 1 19 41M11 36A18 18 0 0 1 31 7" fill="none" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="24" cy="24" r="5.5" fill="var(--ink)"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <title>Living Core</title>
+  <style>
+    svg { --ink: #226244; }
+    @media (prefers-color-scheme: dark) { svg { --ink: #9ff4bf; } }
+  </style>
+  <path d="M21 8.5C25 4 32 4 38 7.5C45.5 12 47 23 41 32C35 41 24 46 15 42C7 39 5 30 9 22" fill="none" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="25" cy="25" r="6.5" fill="var(--ink)"/>
+</svg>
