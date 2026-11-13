@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { SiteHeader } from "../site-header";
 import { sectionSlugs } from "../sections";
+import { isTheme, themeKey } from "../theme";
 import { locales } from "../../i18n/locales.mjs";
 import "../globals.css";
 
@@ -25,18 +27,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const restoreTheme = `try {
-  const theme = localStorage.getItem("nextaiism-theme");
-  if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme;
-} catch {}`;
-
 export default async function RootLayout({ children, params }: Props & { children: ReactNode }) {
   const { locale } = await params;
   if (!locales.includes(locale)) notFound();
   const t = await getTranslations({ locale });
+  const savedTheme = (await cookies()).get(themeKey)?.value;
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <head><script dangerouslySetInnerHTML={{ __html: restoreTheme }} /></head>
+    <html lang={locale} data-theme={isTheme(savedTheme) ? savedTheme : undefined}>
       <body>
         <a className="skip-link" href="#main">{t("ui.skip")}</a>
         <SiteHeader locale={locale} home={t("ui.home")} navigation={t("ui.nav")} theme={t("ui.theme")}

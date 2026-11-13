@@ -2,14 +2,30 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useLayoutEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { languageCookie, languages, localeCookieMaxAge } from "../i18n/locales.mjs";
+import { isTheme, themeKey, themeMaxAge } from "./theme";
+
+function applyTheme(theme: "light" | "dark") {
+  document.documentElement.dataset.theme = theme;
+  document.cookie = `${themeKey}=${theme}; Path=/; Max-Age=${themeMaxAge}; SameSite=Lax`;
+}
 
 type Labels = { locale: string; home: string; navigation: string; theme: string; language: string; titles: Record<string, string> };
 
 export function SiteHeader({ locale, home, navigation, theme, language, titles }: Labels) {
   const pathname = usePathname();
   const router = useRouter();
+  useLayoutEffect(() => {
+    if (document.documentElement.dataset.theme) return;
+    try {
+      const savedTheme = localStorage.getItem(themeKey) ?? undefined;
+      if (isTheme(savedTheme)) applyTheme(savedTheme);
+    } catch {
+      // The system theme remains active when browser storage is unavailable.
+    }
+  }, []);
   const links = [
     { href: `/${locale}`, title: home },
     ...Object.entries(titles).map(([slug, title]) => ({ href: `/${locale}/${slug}`, title })),
@@ -28,9 +44,9 @@ export function SiteHeader({ locale, home, navigation, theme, language, titles }
     const root = document.documentElement;
     const dark = getComputedStyle(root).colorScheme === "dark";
     const theme = dark ? "light" : "dark";
-    root.dataset.theme = theme;
+    applyTheme(theme);
     try {
-      localStorage.setItem("nextaiism-theme", theme);
+      localStorage.setItem(themeKey, theme);
     } catch {
       // The current page still reflects the selection without storage.
     }
