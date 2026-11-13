@@ -1,0 +1,57 @@
+{
+  "ui": {
+    "home": "Startseite",
+    "nav": "Hauptnavigation",
+    "theme": "Farbschema wechseln",
+    "language": "Sprache",
+    "skip": "Zum Inhalt springen",
+    "labName": "Lebendiges KI-Labor",
+    "hero": "Der Raum zwischen menschlicher und maschineller Intelligenz.",
+    "lede": "Ein lebendiges Labor für die Frage, was Menschen und KI gemeinsam erschaffen können.",
+    "explore": "Labor erkunden",
+    "directions": "Forschungsrichtungen",
+    "human": "Mensch",
+    "machine": "Maschine",
+    "research": "Forschung"
+  },
+  "sections": {
+    "lab": {
+      "title": "Labor",
+      "label": "Experimente",
+      "description": "Hier erproben wir, wie Menschen und KI gemeinsam denken, gestalten und lernen.",
+      "detail": "Wir dokumentieren jedes Experiment von der Ausgangsfrage über den Prototyp bis zu den Erkenntnissen."
+    },
+    "personal-core": {
+      "title": "Persönlicher Kern",
+      "label": "Menschliche Selbstbestimmung",
+      "description": "Erkunde, was menschlich bleibt, wenn KI Teil des alltäglichen Denkens wird.",
+      "detail": "Anhand der Arbeit mit KI untersuchen wir Aufmerksamkeit, Werte und Urteilsvermögen."
+    },
+    "publications": {
+      "title": "Publikationen",
+      "label": "Forschungsnotizen",
+      "description": "Essays und Praxisnotizen über die Zusammenarbeit von Menschen und KI.",
+      "detail": "Hier erscheinen Versuchsberichte, Ideen in Arbeit und längere Essays."
+    },
+    "community": {
+      "title": "Gemeinschaft",
+      "label": "Offene Forschung",
+      "description": "Ein Ort für gemeinsame Fragen dazu, wie wir KI entwickeln und nutzen.",
+      "detail": "Mit dem Labor wachsen hier auch die Diskussionsthemen und Möglichkeiten zur Mitarbeit."
+    },
+    "clean-slate": {
+      "title": "Neuanfang",
+      "label": "Grundprinzipien",
+      "description": "Beginne mit einem leeren Blatt und hinterfrage die Annahmen hinter einer vertrauten Idee.",
+      "detail": "Wähle eine Annahme über KI und frage dich, was du entwerfen würdest, wenn sie nicht mehr zuträfe."
+    }
+  },
+  "logo": {
+    "title": "Logo-Vorschau",
+    "intro": "Das NextAIism-Logo auf hellem und dunklem Hintergrund.",
+    "description": "Zwei sich kreuzende Umlaufbahnen, ein leuchtender Kern, ein offener Außenbogen und ein Satellit.",
+    "download": "SVG herunterladen",
+    "light": "Hell",
+    "dark": "Dunkel"
+  }
+}

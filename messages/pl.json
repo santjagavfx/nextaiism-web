@@ -1,0 +1,57 @@
+{
+  "ui": {
+    "home": "Strona główna",
+    "nav": "Menu główne",
+    "theme": "Zmień motyw kolorystyczny",
+    "language": "Język",
+    "skip": "Przejdź do treści",
+    "labName": "Żywe laboratorium AI",
+    "hero": "Przestrzeń między inteligencją ludzką a maszynową.",
+    "lede": "Żywe laboratorium, w którym badamy, co ludzie i AI mogą wspólnie stworzyć.",
+    "explore": "Odkryj laboratorium",
+    "directions": "Kierunki badań",
+    "human": "Człowiek",
+    "machine": "Maszyna",
+    "research": "Badania"
+  },
+  "sections": {
+    "lab": {
+      "title": "Laboratorium",
+      "label": "Eksperymenty",
+      "description": "Miejsce, w którym sprawdzamy, jak ludzie i AI wspólnie myślą, tworzą i się uczą.",
+      "detail": "Opiszemy każdy eksperyment, od pierwszego pytania przez prototyp po wnioski."
+    },
+    "personal-core": {
+      "title": "Osobisty rdzeń",
+      "label": "Sprawczość człowieka",
+      "description": "Sprawdź, co pozostaje ludzkie, gdy AI staje się częścią codziennego myślenia.",
+      "detail": "Na przykładach współpracy z AI przyjrzymy się uwadze, wartościom i samodzielnemu osądowi."
+    },
+    "publications": {
+      "title": "Publikacje",
+      "label": "Notatki badawcze",
+      "description": "Eseje i notatki terenowe o współpracy ludzi z AI.",
+      "detail": "Znajdą się tu raporty z eksperymentów, rozwijane pomysły i dłuższe eseje."
+    },
+    "community": {
+      "title": "Społeczność",
+      "label": "Otwarte badania",
+      "description": "Miejsce na wspólne pytania o to, jak tworzymy i wykorzystujemy AI.",
+      "detail": "Wraz z rozwojem laboratorium pojawią się tu tematy do dyskusji i sposoby uczestnictwa."
+    },
+    "clean-slate": {
+      "title": "Czysta karta",
+      "label": "Pierwsze zasady",
+      "description": "Zacznij od czystej kartki i przemyśl założenia stojące za znanym pomysłem.",
+      "detail": "Wybierz założenie dotyczące AI i zapytaj, co byś zaprojektował, gdyby przestało być prawdziwe."
+    }
+  },
+  "logo": {
+    "title": "Podgląd logo",
+    "intro": "Logo NextAIism na jasnym i ciemnym tle.",
+    "description": "Dwie przecinające się orbity, świecący rdzeń, otwarty łuk zewnętrzny i jeden satelita.",
+    "download": "Pobierz SVG",
+    "light": "Jasne",
+    "dark": "Ciemne"
+  }
+}

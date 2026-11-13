@@ -1,0 +1,57 @@
+{
+  "ui": {
+    "home": "Início",
+    "nav": "Navegação principal",
+    "theme": "Alternar tema de cores",
+    "language": "Idioma",
+    "skip": "Ir para o conteúdo",
+    "labName": "Laboratório vivo de IA",
+    "hero": "O espaço entre a inteligência humana e a das máquinas.",
+    "lede": "Um laboratório vivo para explorar o que pessoas e IA podem criar juntas.",
+    "explore": "Explorar o laboratório",
+    "directions": "Linhas de pesquisa",
+    "human": "Humano",
+    "machine": "Máquina",
+    "research": "Pesquisa"
+  },
+  "sections": {
+    "lab": {
+      "title": "Laboratório",
+      "label": "Experimentos",
+      "description": "Um espaço para testar como pessoas e IA pensam, criam e aprendem juntas.",
+      "detail": "Vamos documentar cada experimento, da pergunta inicial ao protótipo e aos aprendizados."
+    },
+    "personal-core": {
+      "title": "Núcleo pessoal",
+      "label": "Autonomia humana",
+      "description": "Explore o que continua sendo humano quando a IA passa a fazer parte do pensamento cotidiano.",
+      "detail": "Com base em experiências com a IA, vamos investigar atenção, valores e discernimento."
+    },
+    "publications": {
+      "title": "Publicações",
+      "label": "Notas de pesquisa",
+      "description": "Ensaios e notas de campo sobre a colaboração entre pessoas e IA.",
+      "detail": "As publicações vão reunir relatos de experimentos, ideias em elaboração e ensaios mais longos."
+    },
+    "community": {
+      "title": "Comunidade",
+      "label": "Pesquisa aberta",
+      "description": "Um espaço para discutir em conjunto como desenvolvemos e usamos a IA.",
+      "detail": "Conforme o laboratório crescer, esta seção vai reunir temas para discussão e formas de participar."
+    },
+    "clean-slate": {
+      "title": "Página em branco",
+      "label": "Primeiros princípios",
+      "description": "Comece com uma página em branco e reavalie as premissas por trás de uma ideia conhecida.",
+      "detail": "Escolha uma premissa sobre IA e pergunte o que você projetaria se ela deixasse de ser verdadeira."
+    }
+  },
+  "logo": {
+    "title": "Prévia do logotipo",
+    "intro": "O logotipo da NextAIism em fundos claros e escuros.",
+    "description": "Duas órbitas que se cruzam, um núcleo luminoso, um arco externo aberto e um satélite.",
+    "download": "Baixar SVG",
+    "light": "Claro",
+    "dark": "Escuro"
+  }
+}

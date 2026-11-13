@@ -1,0 +1,57 @@
+{
+  "ui": {
+    "home": "Home",
+    "nav": "Navigazione principale",
+    "theme": "Cambia tema",
+    "language": "Lingua",
+    "skip": "Vai al contenuto",
+    "labName": "Laboratorio vivente di IA",
+    "hero": "Lo spazio tra l’intelligenza umana e quella delle macchine.",
+    "lede": "Un laboratorio vivente per esplorare ciò che persone e IA possono creare insieme.",
+    "explore": "Esplora il laboratorio",
+    "directions": "Direzioni di ricerca",
+    "human": "Persona",
+    "machine": "Macchina",
+    "research": "Ricerca"
+  },
+  "sections": {
+    "lab": {
+      "title": "Laboratorio",
+      "label": "Esperimenti",
+      "description": "Uno spazio per sperimentare come persone e IA pensano, creano e imparano insieme.",
+      "detail": "Documenteremo ogni esperimento dalla domanda iniziale al prototipo e alle conclusioni."
+    },
+    "personal-core": {
+      "title": "Nucleo personale",
+      "label": "Autonomia umana",
+      "description": "Esplora ciò che resta umano quando l’IA entra nel pensiero quotidiano.",
+      "detail": "Attraverso esperienze con l’IA esamineremo attenzione, valori e capacità di giudizio."
+    },
+    "publications": {
+      "title": "Pubblicazioni",
+      "label": "Note di ricerca",
+      "description": "Saggi e appunti sul campo sulla collaborazione tra persone e IA.",
+      "detail": "Qui raccoglieremo resoconti di esperimenti, idee in elaborazione e saggi più ampi."
+    },
+    "community": {
+      "title": "Comunità",
+      "label": "Ricerca aperta",
+      "description": "Uno spazio per discutere insieme di come sviluppiamo e usiamo l’IA.",
+      "detail": "Con la crescita del laboratorio proporremo temi di discussione e modi per partecipare."
+    },
+    "clean-slate": {
+      "title": "Pagina bianca",
+      "label": "Primi principi",
+      "description": "Parti da una pagina bianca e ripensa le ipotesi dietro un’idea familiare.",
+      "detail": "Scegli un’ipotesi sull’IA e chiediti cosa progetteresti se non fosse più vera."
+    }
+  },
+  "logo": {
+    "title": "Anteprima del logo",
+    "intro": "Il logo di NextAIism su sfondi chiari e scuri.",
+    "description": "Due orbite incrociate, un nucleo luminoso, un arco esterno aperto e un satellite.",
+    "download": "Scarica SVG",
+    "light": "Chiaro",
+    "dark": "Scuro"
+  }
+}

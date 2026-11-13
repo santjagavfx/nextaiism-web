@@ -2,16 +2,27 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
-import { sections } from "./sections";
+import { usePathname, useRouter } from "next/navigation";
+import { languageCookie, languages, localeCookieMaxAge } from "../i18n/locales.mjs";
 
-const links = [
-  { href: "/", title: "Home" },
-  ...sections.map(({ slug, title }) => ({ href: `/${slug}`, title })),
-];
+type Labels = { locale: string; home: string; navigation: string; theme: string; language: string; titles: Record<string, string> };
 
-export function SiteHeader() {
+export function SiteHeader({ locale, home, navigation, theme, language, titles }: Labels) {
   const pathname = usePathname();
+  const router = useRouter();
+  const links = [
+    { href: `/${locale}`, title: home },
+    ...Object.entries(titles).map(([slug, title]) => ({ href: `/${locale}/${slug}`, title })),
+  ];
+
+  function switchLanguage(nextLocale: string) {
+    const path = pathname.slice(locale.length + 1);
+    const destination = path.startsWith("/publications/") &&
+      !document.head.querySelector(`link[rel="alternate"][hreflang="${nextLocale}"]`)
+      ? "/publications" : path;
+    document.cookie = `${languageCookie}=${nextLocale}; Path=/; Max-Age=${localeCookieMaxAge}; SameSite=Lax`;
+    router.push(`/${nextLocale}${destination}${window.location.search}${window.location.hash}`);
+  }
 
   function toggleTheme() {
     const root = document.documentElement;
@@ -28,18 +39,23 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="shell header-inner">
-        <Link href="/" className="brand">
-          <Image className="brand-mark" src="/logos/nextaiism.svg" alt="" width={28} height={28} unoptimized />
+        <Link href={`/${locale}`} className="brand">
+          <Image className="brand-mark" src="/logos/nextaiism.svg" alt="" width={28} height={28} loading="eager" unoptimized />
           NextAIism
         </Link>
-        <nav aria-label="Main navigation">
+        <nav aria-label={navigation}>
           {links.map(({ href, title }) => (
             <Link key={href} href={href} aria-current={pathname === href ? "page" : undefined}>{title}</Link>
           ))}
         </nav>
-        <button className="theme-button" onClick={toggleTheme} type="button" aria-label="Switch color theme" title="Switch color theme">
+        <div className="header-actions">
+        <select className="language-select" aria-label={language} value={locale} onChange={(event) => switchLanguage(event.target.value)}>
+          {Object.entries(languages).map(([code, label]) => <option key={code} value={code} lang={code}>{label}</option>)}
+        </select>
+        <button className="theme-button" onClick={toggleTheme} type="button" aria-label={theme} title={theme}>
           <span className="sun" aria-hidden="true">☼</span><span className="moon" aria-hidden="true">☾</span>
         </button>
+        </div>
       </div>
     </header>
   );

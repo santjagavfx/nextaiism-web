@@ -1,0 +1,57 @@
+{
+  "ui": {
+    "home": "Inicio",
+    "nav": "Navegación principal",
+    "theme": "Cambiar tema de color",
+    "language": "Idioma",
+    "skip": "Ir al contenido",
+    "labName": "Laboratorio vivo de IA",
+    "hero": "El espacio entre la inteligencia humana y la de las máquinas.",
+    "lede": "Un laboratorio vivo para explorar lo que las personas y la IA pueden crear juntas.",
+    "explore": "Explorar el laboratorio",
+    "directions": "Líneas de investigación",
+    "human": "Humano",
+    "machine": "Máquina",
+    "research": "Investigación"
+  },
+  "sections": {
+    "lab": {
+      "title": "Laboratorio",
+      "label": "Experimentos",
+      "description": "Un espacio para probar cómo las personas y la IA piensan, crean y aprenden juntas.",
+      "detail": "Documentaremos cada experimento desde la pregunta inicial hasta el prototipo y las conclusiones."
+    },
+    "personal-core": {
+      "title": "Núcleo personal",
+      "label": "Autonomía humana",
+      "description": "Explora qué sigue siendo humano cuando la IA se incorpora al pensamiento cotidiano.",
+      "detail": "A partir de experiencias con la IA, estudiaremos la atención, los valores y el criterio propio."
+    },
+    "publications": {
+      "title": "Publicaciones",
+      "label": "Notas de investigación",
+      "description": "Ensayos y notas de campo sobre la colaboración entre personas e IA.",
+      "detail": "Reuniremos informes de experimentos, ideas en desarrollo y ensayos más extensos."
+    },
+    "community": {
+      "title": "Comunidad",
+      "label": "Investigación abierta",
+      "description": "Un espacio para debatir cómo creamos y utilizamos la IA.",
+      "detail": "Aquí encontrarás temas de conversación y formas de participar a medida que crezca el laboratorio."
+    },
+    "clean-slate": {
+      "title": "Borrón y cuenta nueva",
+      "label": "Primeros principios",
+      "description": "Empieza desde cero y reconsidera los supuestos detrás de una idea conocida.",
+      "detail": "Elige un supuesto sobre la IA y pregúntate qué diseñarías si dejara de ser cierto."
+    }
+  },
+  "logo": {
+    "title": "Vista previa del logotipo",
+    "intro": "El logotipo de NextAIism sobre fondos claros y oscuros.",
+    "description": "Dos órbitas cruzadas, un núcleo luminoso, un arco exterior abierto y un satélite.",
+    "download": "Descargar SVG",
+    "light": "Claro",
+    "dark": "Oscuro"
+  }
+}

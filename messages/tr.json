@@ -1,0 +1,57 @@
+{
+  "ui": {
+    "home": "Ana sayfa",
+    "nav": "Ana menü",
+    "theme": "Renk temasını değiştir",
+    "language": "Dil",
+    "skip": "İçeriğe geç",
+    "labName": "Yaşayan Yapay Zekâ Laboratuvarı",
+    "hero": "İnsan zekâsı ile makine zekâsı arasındaki alan.",
+    "lede": "İnsanların ve yapay zekânın birlikte neler yaratabileceğini araştıran yaşayan bir laboratuvar.",
+    "explore": "Laboratuvarı keşfet",
+    "directions": "Araştırma alanları",
+    "human": "İnsan",
+    "machine": "Makine",
+    "research": "Araştırma"
+  },
+  "sections": {
+    "lab": {
+      "title": "Laboratuvar",
+      "label": "Deneyler",
+      "description": "İnsanların ve yapay zekânın birlikte nasıl düşündüğünü, ürettiğini ve öğrendiğini denediğimiz alan.",
+      "detail": "Her deneyi ilk sorudan prototipe ve elde ettiğimiz sonuçlara kadar belgeleyeceğiz."
+    },
+    "personal-core": {
+      "title": "Kişisel Çekirdek",
+      "label": "İnsanın karar alma gücü",
+      "description": "Yapay zekâ gündelik düşüncenin bir parçası olduğunda insana özgü kalanları keşfet.",
+      "detail": "Yapay zekâyla çalışma örnekleri üzerinden dikkat, değerler ve muhakemeyi inceleyeceğiz."
+    },
+    "publications": {
+      "title": "Yayınlar",
+      "label": "Araştırma notları",
+      "description": "İnsanlarla yapay zekânın iş birliği üzerine denemeler ve saha notları.",
+      "detail": "Burada deney raporları, geliştirilmekte olan fikirler ve daha kapsamlı yazılar yer alacak."
+    },
+    "community": {
+      "title": "Topluluk",
+      "label": "Açık araştırma",
+      "description": "Yapay zekâyı nasıl geliştirdiğimizi ve kullandığımızı birlikte sorgulayabileceğimiz bir alan.",
+      "detail": "Laboratuvar geliştikçe burada tartışma konuları ve katılım yolları yer alacak."
+    },
+    "clean-slate": {
+      "title": "Temiz Sayfa",
+      "label": "İlk ilkeler",
+      "description": "Boş bir sayfayla başla ve tanıdık bir fikrin ardındaki varsayımları yeniden düşün.",
+      "detail": "Yapay zekâ hakkında bir varsayım seç ve artık geçerli olmasaydı ne tasarlayacağını düşün."
+    }
+  },
+  "logo": {
+    "title": "Logo önizlemesi",
+    "intro": "Açık ve koyu zeminlerde NextAIism logosu.",
+    "description": "Kesişen iki yörünge, parlayan bir çekirdek, açık bir dış yay ve tek bir uydu.",
+    "download": "SVG’yi indir",
+    "light": "Açık",
+    "dark": "Koyu"
+  }
+}

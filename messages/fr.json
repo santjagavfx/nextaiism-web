@@ -1,0 +1,57 @@
+{
+  "ui": {
+    "home": "Accueil",
+    "nav": "Navigation principale",
+    "theme": "Changer le thème de couleurs",
+    "language": "Langue",
+    "skip": "Aller au contenu",
+    "labName": "Laboratoire vivant de l’IA",
+    "hero": "L’espace entre l’intelligence humaine et celle des machines.",
+    "lede": "Un laboratoire vivant pour explorer ce que les humains et l’IA peuvent créer ensemble.",
+    "explore": "Explorer le laboratoire",
+    "directions": "Axes de recherche",
+    "human": "Humain",
+    "machine": "Machine",
+    "research": "Recherche"
+  },
+  "sections": {
+    "lab": {
+      "title": "Laboratoire",
+      "label": "Expériences",
+      "description": "Un espace pour tester comment les humains et l’IA pensent, créent et apprennent ensemble.",
+      "detail": "Chaque expérience sera documentée, de la question initiale au prototype et aux enseignements tirés."
+    },
+    "personal-core": {
+      "title": "Noyau personnel",
+      "label": "Autonomie humaine",
+      "description": "Explorez ce qui reste humain lorsque l’IA fait partie de la réflexion quotidienne.",
+      "detail": "À partir de situations concrètes, nous étudierons l’attention, les valeurs et le jugement dans le travail avec l’IA."
+    },
+    "publications": {
+      "title": "Publications",
+      "label": "Notes de recherche",
+      "description": "Des essais et des notes de terrain sur la collaboration entre les humains et l’IA.",
+      "detail": "Les publications réuniront des comptes rendus d’expériences, des idées en cours et des essais plus longs."
+    },
+    "community": {
+      "title": "Communauté",
+      "label": "Recherche ouverte",
+      "description": "Un espace pour réfléchir ensemble à la façon dont nous créons et utilisons l’IA.",
+      "detail": "Au fil du développement du laboratoire, cette rubrique proposera des sujets de discussion et des façons de participer."
+    },
+    "clean-slate": {
+      "title": "Page blanche",
+      "label": "Principes fondamentaux",
+      "description": "Partez d’une page blanche et réexaminez les présupposés d’une idée familière.",
+      "detail": "Choisissez une hypothèse sur l’IA et demandez-vous ce que vous concevriez si elle cessait d’être vraie."
+    }
+  },
+  "logo": {
+    "title": "Aperçu du logo",
+    "intro": "Le logo NextAIism sur des fonds clairs et foncés.",
+    "description": "Deux orbites croisées, un noyau lumineux, un arc extérieur ouvert et un satellite.",
+    "download": "Télécharger le SVG",
+    "light": "Clair",
+    "dark": "Foncé"
+  }
+}

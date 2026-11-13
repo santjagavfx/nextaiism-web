@@ -1,0 +1,57 @@
+{
+  "ui": {
+    "home": "Home",
+    "nav": "Main navigation",
+    "theme": "Switch color theme",
+    "language": "Language",
+    "skip": "Skip to content",
+    "labName": "Living AI Laboratory",
+    "hero": "The space between human and machine intelligence.",
+    "lede": "A living laboratory for exploring what humans and AI can create together.",
+    "explore": "Explore the LAB",
+    "directions": "Research directions",
+    "human": "Human",
+    "machine": "Machine",
+    "research": "Research"
+  },
+  "sections": {
+    "lab": {
+      "title": "LAB",
+      "label": "Experiments",
+      "description": "A workspace for testing how people and AI think, make, and learn together.",
+      "detail": "The LAB will document each experiment from its opening question to the prototype and what we learned."
+    },
+    "personal-core": {
+      "title": "Personal Core",
+      "label": "Human agency",
+      "description": "Explore what stays human when AI becomes part of everyday thinking.",
+      "detail": "This section will explore attention, values, and judgment through practical reflections on working with AI."
+    },
+    "publications": {
+      "title": "Publications",
+      "label": "Research notes",
+      "description": "Essays and field notes on collaboration between humans and AI.",
+      "detail": "Future publications will bring together experiment write-ups, working ideas, and longer essays."
+    },
+    "community": {
+      "title": "Community",
+      "label": "Open inquiry",
+      "description": "A space for shared questions about how we build and use AI.",
+      "detail": "This section will collect discussion topics and ways to participate as the LAB develops."
+    },
+    "clean-slate": {
+      "title": "Clean Slate",
+      "label": "First principles",
+      "description": "Start with a blank page and reconsider the assumptions behind a familiar idea.",
+      "detail": "Choose an assumption about AI and ask what you would design if it were no longer true."
+    }
+  },
+  "logo": {
+    "title": "Logo preview",
+    "intro": "The NextAIism logo on light and dark backgrounds.",
+    "description": "Two crossing orbits, a luminous core, an open outer arc, and one satellite.",
+    "download": "Download SVG",
+    "light": "Light",
+    "dark": "Dark"
+  }
+}

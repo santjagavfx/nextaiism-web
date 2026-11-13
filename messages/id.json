@@ -1,0 +1,57 @@
+{
+  "ui": {
+    "home": "Beranda",
+    "nav": "Navigasi utama",
+    "theme": "Ganti tema warna",
+    "language": "Bahasa",
+    "skip": "Lewati ke konten",
+    "labName": "Laboratorium AI yang Hidup",
+    "hero": "Ruang antara kecerdasan manusia dan mesin.",
+    "lede": "Laboratorium yang hidup untuk meneliti apa yang bisa diciptakan manusia bersama AI.",
+    "explore": "Jelajahi laboratorium",
+    "directions": "Arah penelitian",
+    "human": "Manusia",
+    "machine": "Mesin",
+    "research": "Penelitian"
+  },
+  "sections": {
+    "lab": {
+      "title": "Laboratorium",
+      "label": "Eksperimen",
+      "description": "Ruang untuk menguji bagaimana manusia dan AI berpikir, berkarya, dan belajar bersama.",
+      "detail": "Kami akan mendokumentasikan setiap eksperimen dari pertanyaan awal hingga prototipe dan hasil pembelajaran."
+    },
+    "personal-core": {
+      "title": "Inti Personal",
+      "label": "Kemandirian manusia",
+      "description": "Telusuri apa yang tetap khas manusia ketika AI menjadi bagian dari cara kita berpikir sehari-hari.",
+      "detail": "Kami akan mengkaji perhatian, nilai, dan pertimbangan melalui pengalaman bekerja dengan AI."
+    },
+    "publications": {
+      "title": "Publikasi",
+      "label": "Catatan penelitian",
+      "description": "Esai dan catatan lapangan tentang kolaborasi manusia dengan AI.",
+      "detail": "Publikasi ini akan menghimpun laporan eksperimen, gagasan yang sedang dikembangkan, dan esai yang lebih panjang."
+    },
+    "community": {
+      "title": "Komunitas",
+      "label": "Penelitian terbuka",
+      "description": "Ruang untuk membahas bersama cara kita mengembangkan dan menggunakan AI.",
+      "detail": "Seiring berkembangnya laboratorium, bagian ini akan memuat topik diskusi dan cara untuk ikut serta."
+    },
+    "clean-slate": {
+      "title": "Lembar Baru",
+      "label": "Prinsip dasar",
+      "description": "Mulailah dari lembar kosong dan tinjau kembali asumsi di balik gagasan yang sudah dikenal.",
+      "detail": "Pilih satu asumsi tentang AI dan pikirkan apa yang akan kamu rancang jika asumsi itu tidak lagi berlaku."
+    }
+  },
+  "logo": {
+    "title": "Pratinjau logo",
+    "intro": "Logo NextAIism pada latar terang dan gelap.",
+    "description": "Dua orbit bersilangan, inti bercahaya, busur luar terbuka, dan satu satelit.",
+    "download": "Unduh SVG",
+    "light": "Terang",
+    "dark": "Gelap"
+  }
+}
