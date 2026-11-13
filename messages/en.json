@@ -1,7 +1,5 @@
 {
   "ui": {
-    "playOrbits": "Play orbit animation",
-    "pauseOrbits": "Pause orbit animation",
     "home": "Home",
     "nav": "Main navigation",
     "theme": "Switch color theme",

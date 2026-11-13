@@ -110,13 +110,9 @@ h2 { font-size: clamp(1.9rem, 4.5vw, 3.4rem); font-weight: 620; letter-spacing: 
   .core-scene { max-width: 370px; }
 }
 
-.orbit-controls { display: none; }
-
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .core-panel:not(:has(.orbit-controls[data-playing="true"])) .orbit,
   .core-halo { animation: none; }
-  .orbit-controls { display: flex; margin-inline: auto; }
 }
 .brand-mark { filter: brightness(.55) saturate(.85); }
 .header-actions { display: flex; align-items: center; gap: 8px; }
