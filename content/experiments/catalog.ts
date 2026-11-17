@@ -1,3 +1,5 @@
+import { marineWebglOrigin } from "./approved-origins.mjs";
+
 export const categories = ["ecosystems", "tools", "media"] as const;
 export const statuses = ["concept", "development", "live", "paused", "archived"] as const;
 
@@ -32,6 +34,6 @@ export const experiments: Experiment[] = [
     status: "development",
     approved: true,
     cover: "/experiments/marine-ecosystem.webp",
-    launch: { type: "iframe", url: process.env.MARINE_ECOSYSTEM_WEBGL_URL, fullscreen: true },
+    launch: { type: "iframe", url: process.env.MARINE_ECOSYSTEM_WEBGL_URL ?? marineWebglOrigin, fullscreen: true },
   },
 ];
