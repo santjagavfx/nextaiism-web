@@ -1,7 +1,12 @@
 import "server-only";
 import { experiments, type Experiment } from "./catalog";
 import { materials } from "./materials";
-import { approvedExternalLaunchOrigins, approvedFrameOrigins, approvedHttpsUrl } from "./approved-origins.mjs";
+import { approvedExternalLaunchOrigins, approvedFrameOrigins, approvedHttpsUrl, marineWebglOrigin } from "./approved-origins.mjs";
+
+export function requiresOwnOrigin(experiment: Experiment, url?: string) {
+  return experiment.id === "marine-ecosystem" && experiment.launch.type === "iframe" &&
+    url !== undefined && new URL(url).origin === marineWebglOrigin;
+}
 
 export const publishedExperiments = experiments.filter((experiment) => experiment.approved);
 

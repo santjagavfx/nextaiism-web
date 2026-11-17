@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import { experimentMaterial, experimentUrl, publishedExperiments } from "../../../../content/experiments";
+import { experimentMaterial, experimentUrl, publishedExperiments, requiresOwnOrigin } from "../../../../content/experiments";
 import { approvedPublications } from "../../../../content/publications";
 import { alternateUrls } from "../../../../i18n/metadata";
 import { Launcher, type PlayerLabels } from "../launcher";
@@ -28,6 +28,7 @@ export default async function ExperimentPage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "lab" });
   const labels = Object.fromEntries(playerKeys.map((key) => [key, t(key)])) as PlayerLabels;
   const author = experiment.author;
+  const launchUrl = experimentUrl(experiment);
   const authorUrl = author.url?.startsWith("https://") ? author.url : undefined;
   const active = experiment.status === "live" || experiment.status === "development";
   if (experiment.status === "paused" || experiment.status === "archived") {
@@ -48,7 +49,7 @@ export default async function ExperimentPage({ params }: Props) {
       {!!experiment.tags.length && <p className={styles.note}>{experiment.tags.join(" · ")}</p>}
       <h2 className={styles.subheading}>{t("goal")}</h2>
       <p className={styles.note} lang={language}>{material.goal}</p>
-      <Launcher title={material.title} type={experiment.launch.type} url={experimentUrl(experiment)}
+      <Launcher title={material.title} type={experiment.launch.type} url={launchUrl} ownOrigin={requiresOwnOrigin(experiment, launchUrl)}
         component={active && experiment.launch.type === "internal" ? experiment.launch.component : undefined}
         fullscreen={experiment.launch.fullscreen} labels={labels} />
       {!!material.observations?.length && <section>

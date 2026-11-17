@@ -10,12 +10,13 @@ type Props = {
   title: string;
   type: "iframe" | "external" | "internal";
   url?: string;
+  ownOrigin?: boolean;
   component?: string;
   fullscreen: boolean;
   labels: PlayerLabels;
 };
 
-export function Launcher({ title, type, url, component, fullscreen, labels }: Props) {
+export function Launcher({ title, type, url, ownOrigin, component, fullscreen, labels }: Props) {
   const stage = useRef<HTMLDivElement>(null);
   const [attempt, setAttempt] = useState(0);
   const [state, setState] = useState<"idle" | "loading" | "loaded" | "error">("idle");
@@ -50,7 +51,7 @@ export function Launcher({ title, type, url, component, fullscreen, labels }: Pr
     <section aria-label={title}>
       <div ref={stage} className={styles.stage}>
         {running && type === "iframe" && state !== "error" && (
-          <iframe key={attempt} title={title} src={url} sandbox="allow-scripts" referrerPolicy="no-referrer"
+          <iframe key={attempt} title={title} src={url} sandbox={ownOrigin ? "allow-scripts allow-same-origin" : "allow-scripts"} referrerPolicy="no-referrer"
             allow={fullscreen ? "fullscreen" : undefined} allowFullScreen={fullscreen}
             onLoad={() => setState("loaded")} onError={() => setState("error")} />
         )}
