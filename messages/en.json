@@ -1,4 +1,43 @@
 {
+"lab": {
+    "intro": "Explore digital experiments by NextAIism and invited contributors.",
+    "search": "Search by title",
+    "category": "Category",
+    "status": "Status",
+    "all": "All",
+    "empty": "No matching experiments.",
+    "back": "Catalog",
+    "author": "Author",
+    "goal": "Goal",
+    "observations": "Observations",
+    "publications": "Publications",
+    "fallback": "Content available in English.",
+    "launch": "Launch",
+    "restart": "Restart",
+    "fullscreen": "Fullscreen",
+    "open": "Open in new tab",
+    "preparing": "Experiment in preparation",
+    "loading": "Loading the application…",
+    "frameHelp": "If the player stays blank, use Open in new tab.",
+    "loadError": "The application could not be loaded. Try restarting or opening it in a new tab.",
+    "screenError": "Fullscreen is unavailable in this browser.",
+    "categories": {
+      "ecosystems": "Ecosystems",
+      "tools": "Tools",
+      "media": "Media"
+    },
+    "statuses": {
+      "concept": "Concept",
+      "development": "In development",
+      "live": "Live",
+      "paused": "Paused",
+      "archived": "Archived"
+    },
+    "authors": {
+      "team": "NextAIism team",
+      "guest": "Guest contributor"
+    }
+  },
   "ui": {
     "home": "Home",
     "nav": "Main navigation",

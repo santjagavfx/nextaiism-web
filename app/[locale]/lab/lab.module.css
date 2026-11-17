@@ -1,0 +1,19 @@
+.page h1 { font-size: clamp(2.8rem, 7vw, 6rem); }
+.filters { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 12px; margin-block: 32px 20px; }
+.filters label { display: grid; gap: 6px; min-width: 0; font-size: .875rem; color: var(--muted); }
+.filters input, .filters select { width: 100%; min-height: 44px; padding: 8px 10px; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 5px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 310px), 1fr)); gap: 16px; }
+.card { display: block; height: 100%; overflow: hidden; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+.card:hover { border-color: var(--accent); }
+.cover { width: 100%; aspect-ratio: 3 / 2; height: auto; object-fit: cover; }
+.cardBody { padding: 16px; overflow-wrap: anywhere; }
+.cardBody h2, .subheading { margin-block: 8px; font-size: clamp(1.3rem, 3vw, 1.85rem); }
+.note { margin-block: 10px; color: var(--muted); overflow-wrap: anywhere; }
+.note a { text-decoration: underline; }
+.stage { position: relative; display: grid; place-items: center; width: 100%; min-height: 245px; aspect-ratio: 16 / 9; margin-top: 22px; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface); }
+.stage iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.stage:fullscreen { width: 100%; height: 100%; margin: 0; border: 0; border-radius: 0; background: var(--background); }
+.stageMessage { display: grid; justify-items: center; gap: 12px; padding: 18px; text-align: center; }
+.loading { position: relative; padding: 10px; background: var(--surface); border-radius: 4px; pointer-events: none; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; margin-block: 12px; }
+@media (max-width: 600px) { .filters { grid-template-columns: 1fr; } }

@@ -1,4 +1,43 @@
 {
+"lab": {
+    "intro": "Explorez les expériences numériques de NextAIism et de ses contributeurs invités.",
+    "search": "Rechercher par titre",
+    "category": "Catégorie",
+    "status": "Statut",
+    "all": "Tout",
+    "empty": "Aucune expérience correspondante.",
+    "back": "Catalogue",
+    "author": "Auteur",
+    "goal": "Objectif",
+    "observations": "Observations",
+    "publications": "Publications",
+    "fallback": "Contenu disponible en anglais.",
+    "launch": "Lancer",
+    "restart": "Relancer",
+    "fullscreen": "Plein écran",
+    "open": "Ouvrir dans un nouvel onglet",
+    "preparing": "Expérience en préparation",
+    "loading": "Chargement de l’application…",
+    "frameHelp": "Si la zone reste vide, ouvrez l’application dans un nouvel onglet.",
+    "loadError": "Impossible de charger l’application. Relancez-la ou ouvrez-la dans un nouvel onglet.",
+    "screenError": "Le plein écran est indisponible dans ce navigateur.",
+    "categories": {
+      "ecosystems": "Écosystèmes",
+      "tools": "Outils",
+      "media": "Médias"
+    },
+    "statuses": {
+      "concept": "Concept",
+      "development": "En développement",
+      "live": "Disponible",
+      "paused": "En pause",
+      "archived": "Archivé"
+    },
+    "authors": {
+      "team": "Équipe NextAIism",
+      "guest": "Contributeur invité"
+    }
+  },
   "ui": {
     "home": "Accueil",
     "nav": "Navigation principale",

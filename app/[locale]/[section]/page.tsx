@@ -9,7 +9,7 @@ type Props = { params: Promise<{ locale: string; section: string }> };
 
 export const dynamicParams = false;
 export function generateStaticParams() {
-  return sectionSlugs.map((section) => ({ section }));
+  return sectionSlugs.filter((section) => section !== "lab").map((section) => ({ section }));
 }
 
 async function getSection(params: Props["params"]) {

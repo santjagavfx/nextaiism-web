@@ -1,4 +1,43 @@
 {
+"lab": {
+    "intro": "Poznaj cyfrowe eksperymenty NextAIism i zaproszonych twórców.",
+    "search": "Szukaj według tytułu",
+    "category": "Kategoria",
+    "status": "Status",
+    "all": "Wszystkie",
+    "empty": "Brak pasujących eksperymentów.",
+    "back": "Katalog",
+    "author": "Autor",
+    "goal": "Cel",
+    "observations": "Obserwacje",
+    "publications": "Publikacje",
+    "fallback": "Treść dostępna po angielsku.",
+    "launch": "Uruchom",
+    "restart": "Uruchom ponownie",
+    "fullscreen": "Pełny ekran",
+    "open": "Otwórz w nowej karcie",
+    "preparing": "Eksperyment w przygotowaniu",
+    "loading": "Wczytywanie aplikacji…",
+    "frameHelp": "Jeśli obszar pozostaje pusty, otwórz aplikację w nowej karcie.",
+    "loadError": "Nie udało się wczytać aplikacji. Uruchom ją ponownie lub otwórz w nowej karcie.",
+    "screenError": "Tryb pełnoekranowy jest niedostępny w tej przeglądarce.",
+    "categories": {
+      "ecosystems": "Ekosystemy",
+      "tools": "Narzędzia",
+      "media": "Media"
+    },
+    "statuses": {
+      "concept": "Koncepcja",
+      "development": "W trakcie tworzenia",
+      "live": "Dostępny",
+      "paused": "Wstrzymany",
+      "archived": "Zarchiwizowany"
+    },
+    "authors": {
+      "team": "Zespół NextAIism",
+      "guest": "Zaproszony twórca"
+    }
+  },
   "ui": {
     "home": "Strona główna",
     "nav": "Menu główne",

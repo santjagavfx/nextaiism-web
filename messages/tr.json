@@ -1,4 +1,43 @@
 {
+"lab": {
+    "intro": "NextAIism ve davetli katılımcıların dijital deneylerini keşfet.",
+    "search": "Başlığa göre ara",
+    "category": "Kategori",
+    "status": "Durum",
+    "all": "Tümü",
+    "empty": "Eşleşen deney bulunamadı.",
+    "back": "Katalog",
+    "author": "Yazar",
+    "goal": "Amaç",
+    "observations": "Gözlemler",
+    "publications": "Yayınlar",
+    "fallback": "İçerik İngilizce olarak sunuluyor.",
+    "launch": "Başlat",
+    "restart": "Yeniden başlat",
+    "fullscreen": "Tam ekran",
+    "open": "Yeni sekmede aç",
+    "preparing": "Deney hazırlanıyor",
+    "loading": "Uygulama yükleniyor…",
+    "frameHelp": "Alan boş kalırsa uygulamayı yeni sekmede aç.",
+    "loadError": "Uygulama yüklenemedi. Yeniden başlat veya yeni sekmede aç.",
+    "screenError": "Bu tarayıcıda tam ekran kullanılamıyor.",
+    "categories": {
+      "ecosystems": "Ekosistemler",
+      "tools": "Araçlar",
+      "media": "Medya"
+    },
+    "statuses": {
+      "concept": "Kavram",
+      "development": "Geliştirme aşamasında",
+      "live": "Kullanılabilir",
+      "paused": "Duraklatıldı",
+      "archived": "Arşivlendi"
+    },
+    "authors": {
+      "team": "NextAIism ekibi",
+      "guest": "Davetli katılımcı"
+    }
+  },
   "ui": {
     "home": "Ana sayfa",
     "nav": "Ana menü",

@@ -1,4 +1,43 @@
 {
+"lab": {
+    "intro": "Jelajahi eksperimen digital dari NextAIism dan kontributor undangan.",
+    "search": "Cari berdasarkan judul",
+    "category": "Kategori",
+    "status": "Status",
+    "all": "Semua",
+    "empty": "Tidak ada eksperimen yang cocok.",
+    "back": "Katalog",
+    "author": "Pembuat",
+    "goal": "Tujuan",
+    "observations": "Pengamatan",
+    "publications": "Publikasi",
+    "fallback": "Konten tersedia dalam bahasa Inggris.",
+    "launch": "Jalankan",
+    "restart": "Mulai ulang",
+    "fullscreen": "Layar penuh",
+    "open": "Buka di tab baru",
+    "preparing": "Eksperimen sedang disiapkan",
+    "loading": "Memuat aplikasi…",
+    "frameHelp": "Jika area tetap kosong, buka aplikasi di tab baru.",
+    "loadError": "Aplikasi gagal dimuat. Mulai ulang atau buka di tab baru.",
+    "screenError": "Layar penuh tidak tersedia di peramban ini.",
+    "categories": {
+      "ecosystems": "Ekosistem",
+      "tools": "Alat",
+      "media": "Media"
+    },
+    "statuses": {
+      "concept": "Konsep",
+      "development": "Dalam pengembangan",
+      "live": "Tersedia",
+      "paused": "Dijeda",
+      "archived": "Diarsipkan"
+    },
+    "authors": {
+      "team": "Tim NextAIism",
+      "guest": "Kontributor undangan"
+    }
+  },
   "ui": {
     "home": "Beranda",
     "nav": "Navigasi utama",
